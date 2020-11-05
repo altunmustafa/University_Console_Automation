@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="KtuCeng" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/KtuCeng" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/KtuCeng" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/DoublyLinkedList.h" />
+		<Unit filename="include/EducationEquipment.h" />
+		<Unit filename="include/Equipment.h" />
+		<Unit filename="include/EquipmentDoublyLinkedList.h" />
+		<Unit filename="include/KtuCeng_ControlPanel.h" />
+		<Unit filename="include/KtuCeng_PasswordFunctions.h" />
+		<Unit filename="include/LaboratoryEquipment.h" />
+		<Unit filename="include/Person.h" />
+		<Unit filename="include/PersonDoublyLinkedList.h" />
+		<Unit filename="include/Staff.h" />
+		<Unit filename="include/Student.h" />
+		<Unit filename="include/SupportPersonnel.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/DoublyLinkedList.cpp" />
+		<Unit filename="src/EducationEquipment.cpp" />
+		<Unit filename="src/Equipment.cpp" />
+		<Unit filename="src/EquipmentDoublyLinkedList.cpp" />
+		<Unit filename="src/KtuCeng_ControlPanel.cpp" />
+		<Unit filename="src/KtuCeng_PasswordFunctions.cpp" />
+		<Unit filename="src/LaboratoryEquipment.cpp" />
+		<Unit filename="src/Person.cpp" />
+		<Unit filename="src/PersonDoublyLinkedList.cpp" />
+		<Unit filename="src/Staff.cpp" />
+		<Unit filename="src/Student.cpp" />
+		<Unit filename="src/SupportPersonnel.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
